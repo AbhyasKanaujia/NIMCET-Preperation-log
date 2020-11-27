@@ -15,4 +15,25 @@
 	// 	],
 	// 	"description": "Log output to console"
 	// }
+	"Create List item": {
+		"scope": "html",
+		"prefix": "li",
+		"body": [
+			"<li class=\"list-group-item\">$1</li>$0"
+		],
+		"description": "Insert a list item"
+	},
+	"Create new day": {
+		"prefix": "day",
+		"body": [
+			"<div class=\"day\">",
+			"            <h2>$1</h2>",
+			"",
+			"            <ul class=\"list-group\">",
+			"                <li class=\"list-group-item\">$2</li>$0",
+			"            </ul>",
+			"        </div>"
+		],
+		"description": "Create new day"
+	}
 }

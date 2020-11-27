@@ -15,14 +15,44 @@
 </head>
 
 <body>
+    <!-- use snippet 'day' and 'li' in VSCode -->
     <div class="container">
 
-        <h1>NIMCET 🎯</h1>
+        <!-- Title -->
+        <div class="jumbotron">
+            <h1>NIMCET 🎯</h1>
+            <p id="countdown" class="text-muted"></p>
+            <div class="progress">
+                <div class="progress-bar" role="progressbar" style="width: 0" aria-valuenow="25" aria-valuemin="0"
+                    aria-valuemax="100"></div>
+            </div>
+        </div>
 
+        <!-- content -->
+        <div class="day">
+            <h2>Friday, 27<sup>th</sup> November 2020 😁</h2>
 
+            <ul class="list-group">
+                <li class="list-group-item">🌅 7:44 AM: Ready for morning class</li>
+                <li class="list-group-item">✅ 9:30 AM: Completed morning class on percentage. Now taking break</li>
+                <li class="list-group-item">✊ 10:06 AM - 1:00 PM: Past class on Trigonometry 2 of 11<sup>th</sup> Nov
+                </li>
+                <li class="list-group-item list-group-item-primary">😎 4:00 PM: Sameer sir Trigonomety L11, Conditional
+                    Idenities.</li>
+            </ul>
+
+            <div class="sir-suggestion">
+                <h3>Sir Suggestion</h3>
+                <blockquote class="blockquote">Aap roz ki aadat daal lo till exam. Matlab aaj hi nahi kal hi nahi. Till
+                    exam, ek kaam har
+                    roz karna
+                    hai, <em>raat ko sone se pehle ek blank page pe jo jo topic ho rhe hai uske formule zarur likhna.
+                        Specially trigonometry k.</em></blockquote>
+            </div>
+        </div>
 
         <div class="day">
-            <h2>26th November 2020 💪</h2>
+            <h2>Thursday, 26<sup>th</sup> November 2020 💪</h2>
 
             <ul class="list-group">
                 <li class="list-group-item">🌄 8:00 AM: Attended Percentage 8 AM Class </li>
@@ -33,11 +63,12 @@
                 <li class="list-group-item">🎒 7:30 PM: Packing for tomorrow </li>
                 <li class="list-group-item">⌚ 8:26 PM - 9:45 PM: 4:30 completed class pending (1 hr 20 min) work </li>
                 <li class="list-group-item">➗ 9:50 PM - 10:51 PM: Completed Trigonometry 2 questions 20-25</li>
+
             </ul>
         </div>
 
         <div class="day">
-            <h2>25th November 2020 🌟</h2>
+            <h2>Wednesday, 25<sup>th</sup> November 2020 🌟</h2>
 
             <ul class="list-group">
                 <li class="list-group-item list-group-item-primary">🔰 Joined Impetus Gurukul </li>
@@ -55,6 +86,7 @@
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.3/dist/js/bootstrap.bundle.min.js"
         integrity="sha384-ho+j7jyWK8fNQe+A12Hb8AhRq26LrZ/JpcUGGOn+Y7RsweNrtN/tE3MoK7ZeZDyx"
         crossorigin="anonymous"></script>
+    <script src="./countdown.js"></script>
 </body>
 
 </html>
