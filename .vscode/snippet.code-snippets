@@ -19,7 +19,7 @@
 		"scope": "html",
 		"prefix": "li",
 		"body": [
-			"<li class=\"list-group-item\">$1</li>$0"
+			"<li class=\"list-group-item list-group-item-primary\">$1</li>$0"
 		],
 		"description": "Insert a list item"
 	},
@@ -30,7 +30,7 @@
 			"            <h2>$1</h2>",
 			"",
 			"            <ul class=\"list-group\">",
-			"                <li class=\"list-group-item\">$2</li>$0",
+			"                <li class=\"list-group-item list-group-item-primary\">$2</li>$0",
 			"            </ul>",
 			"        </div>"
 		],
